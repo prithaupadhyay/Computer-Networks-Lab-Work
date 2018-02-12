@@ -8,7 +8,7 @@ public static void main(String args[])throws Exception{
   InetAddress ip ;
   String str1,str2="";
   
-      //str=br.readLine();
+      
       Scanner in = new Scanner(System.in);
       str1=in.nextLine();
       String[] part=str1.split(" ");
@@ -57,19 +57,7 @@ public static void main(String args[])throws Exception{
       System.out.println("\tPackets: Sent = 4, Recieved = "+count+", Lost = "+(4-count)+" ("+ (4-count)*25 +"% loss),");
       System.out.println("Approximate round trip times in milli-seconds:");
       System.out.println("\tMinimum = "+min+",ms Maximum = "+max+"ms, Average = "+avg);
-      // dout.writeUTF(str);
-      // dout.flush();
-      // str2=din.readUTF();
-
-
-     //  if(!str2.equals("stop") && !str2.equals("Invalid Host Name"))
-    	// 	System.out.println("IP address of given host is: "+str2);
-
-    	// else if(str2.equals("Invalid Host Name"))
-    	//  	System.out.println(str2);
-
-    	// else
-    	//  	break;
   
 
-}}
+}
+}
